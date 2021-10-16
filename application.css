@@ -1,0 +1,470 @@
+/*
+grey: #707a8a
+light-gray: #bcc0c7
+dark-grey: #5c5b5b
+background color: #f5f5f5
+*/
+
+/* navigation bar       */
+header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.navbar-logo img{
+    width: 15%;
+    height: 15%;
+    display:inline-block;
+}
+.navbar-logo{
+    font-size: 20%;
+    margin: 0.5rem;
+}
+.navbar-position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c5b5b;
+    color: #707a8a;
+}
+.bar-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space;
+    width: 30px;
+    height: 21px;
+}
+
+.bar-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:#bcc0c7;
+    border-radius: 10px;
+    
+}
+.navbarlinks ul {
+    margin-right: 10%;
+    margin-bottom: -2%;
+    margin-left: -2%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    
+}
+.navbarlinks li{
+    list-style: none;
+    
+}
+
+.navbarlinks li a{
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: block;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+}
+/* central logo */
+.central-logo img{
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.central-logo h1{
+   text-align: center;
+}
+/*central image*/
+.central-image{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.central-image img{
+    padding-left: 20%;
+    padding-bottom: 5%;
+    width: 80%;  
+    margin-right: 20%; 
+  }
+  /*the title */
+.title {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-weight: bold;   
+    font-size: 100%;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+/*Chez Mr.Coffee,nous aimons trois choses*/
+.chez {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 100%; 
+    font-weight: bold; 
+   }
+/*Three Boxes Columns*/
+.boxes-columns {
+
+    clear: both; 
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    text-align: center;
+    font-size: 60%;
+    width:fit-content;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%; 
+     
+}
+
+.box-one {
+    padding: 20px;
+    background-color: #bcc0c7;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+.box-one img{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width:30%;
+    height:50%;
+
+}
+
+.box-two{
+    padding: 20px;
+    background-color:#bcc0c7;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.box-two img{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width:30%;
+    height:50%;
+
+}
+
+.box-three{
+    padding: 20px;
+    background-color:#bcc0c7;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color:white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.box-three img{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width:30%;
+    height:50%;
+
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Tahoma, sans-serif;
+    background-color:#f5f5f5;
+    color:#707a8a;   
+}
+/*the Button */
+.press{
+    text-align: center;
+}
+.press button{
+    color: white;
+    background-color: #707a8a;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    list-style: none;
+    outline: none;
+    margin-top: 7%;
+    
+      
+}
+/* Open */
+.open img{
+    width: 10%;
+    height: 10%;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
+    
+}
+
+.open p{
+    margin-top: 6%;
+    margin-left: 6%;
+    font-weight: bold;
+}
+.open {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: -0.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 3%;
+    text-align: center;
+}
+/*Days*/
+.Days {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6%;
+    margin-left: 6%;
+}
+
+.Tuesday{
+margin-right: 4%;
+}
+
+.Thursday{
+margin-left: 4%;
+
+}
+.workshops {
+    margin-left: 6%;
+    margin-bottom: 15%;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.bye {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*Text&Images about.html*/
+.textimages{
+    font-size: 80%;
+    } 
+
+.first-text{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 22%;
+    width: 70%;
+
+}
+.first-text h2{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.first-text p {
+    margin-bottom: -1%;
+    margin-left: 5%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.first-image img{
+    
+    justify-content: right;
+    width: 20%;
+    height: 60%;
+    margin-bottom: 10%;
+    margin-top: -30%;
+    margin-left: 70%;
+    padding: 0.5em;
+   
+    
+} 
+.second-text {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 22%;
+    margin-bottom: 7%;
+    width: 70%;
+    
+}
+.second-text h2{
+    margin-bottom: 40%;
+    margin-left: 35%;
+    margin-top: -40%;
+}
+ .second-image img{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 0.5em;
+ }
+
+.second-text p{
+    margin-left: 35%;
+    margin-top: -38%;
+    margin-bottom: 10%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/*Map */
+.map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 60%;
+}
+/*footer */
+
+.footer-position {
+    vertical-align: bottom;
+    background-color: #5c5b5b;
+    color: #5c5b5b;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+}
+
+.footer-logo img{
+    width: 4.8%;
+    height: 4.8%;
+    float: left;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.footer-text{
+    color: white;
+    padding-top: 2%;
+    padding-bottom: -1%;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.footer-socialmedia li{
+    text-decoration: none;
+    display: inline;
+    padding: 2%;
+    
+}
+.footer-socialmedia img{
+ width: 2%;
+ height: 2%;
+ margin-bottom: 3%;
+}
+/* media query*/
+@media only screen and (max-width: 850px){
+    .first-image {
+visibility: hidden;
+    }
+    .container-modal{
+        width: min-content;
+    }
+}
+
+/*Form*/
+label {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input {
+    background-color: #707a8a;
+    border: 0px solid;
+}
+
+textarea {
+    resize: none;
+    height: 140px;
+    background-color:#707a8a;
+    border: 0px solid;
+  }
+   
+#error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*PopUp*/
+.first-text{
+    align-content: center;
+}
+.container-modal{
+    top: 65%;
+    left: 50%;
+    height:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    position: absolute;
+    display: none;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 5%;
+    
+}
+
+.container-modal img{
+    width: 10%;
+    float: left;
+    margin-top: 3%;
+    margin-left:5%;
+}
+#close {
+    color: white;
+    background-color: #707a8a;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    border-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    outline: none;
+
+}
+#envoyer {
+
+    color: white;
+    background-color: #707a8a;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    border-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    outline: none;
+}
